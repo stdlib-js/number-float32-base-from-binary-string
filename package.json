@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/number-float32-base-from-binary-string",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Create a single-precision floating-point number from a literal bit representation.",
   "license": "Apache-2.0",
   "author": {
