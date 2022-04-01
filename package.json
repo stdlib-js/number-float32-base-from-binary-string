@@ -1,0 +1,42 @@
+{
+  "name": "@stdlib/number-float32-base-from-binary-string",
+  "version": "0.0.0",
+  "description": "Create a single-precision floating-point number from a literal bit representation.",
+  "license": "Apache-2.0",
+  "type": "module",
+  "main": "./mod.js",
+  "homepage": "https://stdlib.io",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/stdlib-js/number-float32-base-from-binary-string.git"
+  },
+  "bugs": {
+    "url": "https://github.com/stdlib-js/stdlib/issues"
+  },
+  "keywords": [
+    "stdlib",
+    "stdtypes",
+    "base",
+    "utilities",
+    "utility",
+    "utils",
+    "util",
+    "types",
+    "type",
+    "binary",
+    "bin",
+    "bits",
+    "float32",
+    "single",
+    "float",
+    "floating-point",
+    "parse",
+    "string",
+    "number",
+    "ieee754"
+  ],
+  "funding": {
+    "type": "patreon",
+    "url": "https://www.patreon.com/athan"
+  }
+}
