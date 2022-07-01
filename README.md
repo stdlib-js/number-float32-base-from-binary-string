@@ -24,30 +24,14 @@ limitations under the License.
 
 > Create a [single-precision floating-point number][ieee754] from an [IEEE 754 literal bit representation][@stdlib/number/float32/base/to-binary-string].
 
-<section class="installation">
 
-## Installation
-
-```bash
-npm install @stdlib/number-float32-base-from-binary-string
-```
-
-Alternatively,
-
--   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm` branch][esm-url].
--   If you are using Deno, visit the [`deno` branch][deno-url].
--   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd` branch][umd-url].
-
-The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
-
-</section>
 
 <section class="usage">
 
 ## Usage
 
 ```javascript
-var fromBinaryStringf = require( '@stdlib/number-float32-base-from-binary-string' );
+import fromBinaryStringf from 'https://cdn.jsdelivr.net/gh/stdlib-js/number-float32-base-from-binary-string@deno/mod.js';
 ```
 
 #### fromBinaryStringf( bstr )
@@ -115,12 +99,12 @@ val = fromBinaryStringf( bstr );
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-var randu = require( '@stdlib/random-base-randu' );
-var round = require( '@stdlib/math-base-special-round' );
-var pow = require( '@stdlib/math-base-special-pow' );
-var toFloat32 = require( '@stdlib/number-float64-base-to-float32' );
-var toBinaryStringf = require( '@stdlib/number-float32-base-to-binary-string' );
-var fromBinaryStringf = require( '@stdlib/number-float32-base-from-binary-string' );
+import randu from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-randu@deno/mod.js';
+import round from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-round@deno/mod.js';
+import pow from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-pow@deno/mod.js';
+import toFloat32 from 'https://cdn.jsdelivr.net/gh/stdlib-js/number-float64-base-to-float32@deno/mod.js';
+import toBinaryStringf from 'https://cdn.jsdelivr.net/gh/stdlib-js/number-float32-base-to-binary-string@deno/mod.js';
+import fromBinaryStringf from 'https://cdn.jsdelivr.net/gh/stdlib-js/number-float32-base-from-binary-string@deno/mod.js';
 
 var frac;
 var sign;
@@ -174,7 +158,7 @@ for ( i = 0; i < 100; i++ ) {
 
 ## Notice
 
-This package is part of [stdlib][stdlib], a standard library for JavaScript and Node.js, with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
+This package is part of [stdlib][stdlib], a standard library with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
 
 For more information on the project, filing bug reports and feature requests, and guidance on how to develop [stdlib][stdlib], see the main project [repository][stdlib].
 
@@ -238,7 +222,7 @@ Copyright &copy; 2016-2022. The Stdlib [Authors][stdlib-authors].
 
 [subnormals]: https://en.wikipedia.org/wiki/Denormal_number
 
-[@stdlib/number/float32/base/to-binary-string]: https://github.com/stdlib-js/number-float32-base-to-binary-string
+[@stdlib/number/float32/base/to-binary-string]: https://github.com/stdlib-js/number-float32-base-to-binary-string/tree/deno
 
 </section>
 
