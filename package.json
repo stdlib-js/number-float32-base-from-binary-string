@@ -38,10 +38,10 @@
   },
   "dependencies": {
     "@stdlib/constants-float32-exponent-bias": "^0.1.1",
-    "@stdlib/constants-float32-ninf": "^0.1.0",
-    "@stdlib/constants-float32-pinf": "^0.1.0",
+    "@stdlib/constants-float32-ninf": "^0.1.1",
+    "@stdlib/constants-float32-pinf": "^0.1.1",
     "@stdlib/math-base-special-pow": "^0.1.0",
-    "@stdlib/number-float64-base-to-float32": "^0.1.0",
+    "@stdlib/number-float64-base-to-float32": "^0.1.1",
     "@stdlib/string-format": "^0.1.1"
   },
   "devDependencies": {
@@ -50,7 +50,7 @@
     "@stdlib/math-base-assert-is-negative-zero": "^0.1.1",
     "@stdlib/math-base-assert-is-positive-zero": "^0.1.1",
     "@stdlib/math-base-special-round": "^0.1.1",
-    "@stdlib/number-float32-base-to-binary-string": "^0.1.0",
+    "@stdlib/number-float32-base-to-binary-string": "^0.1.1",
     "@stdlib/random-base-randu": "^0.1.0",
     "tape": "git+https://github.com/kgryte/tape.git#fix/globby",
     "istanbul": "^0.4.1",
