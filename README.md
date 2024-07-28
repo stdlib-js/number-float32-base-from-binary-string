@@ -44,6 +44,11 @@ limitations under the License.
 To use in Observable,
 
 ```javascript
+fromBinaryStringf = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/number-float32-base-from-binary-string@umd/browser.js' )
+```
+The previous example will load the latest bundled code from the umd branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/number-float32-base-from-binary-string/tags). For example,
+
+```javascript
 fromBinaryStringf = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/number-float32-base-from-binary-string@v0.2.2-umd/browser.js' )
 ```
 
@@ -56,7 +61,7 @@ var fromBinaryStringf = require( 'path/to/vendor/umd/number-float32-base-from-bi
 To include the bundle in a webpage,
 
 ```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/number-float32-base-from-binary-string@v0.2.2-umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/number-float32-base-from-binary-string@umd/browser.js"></script>
 ```
 
 If no recognized module system is present, access bundle contents via the global scope:
@@ -142,7 +147,7 @@ val = fromBinaryStringf( bstr );
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-pow@umd/browser.js"></script>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/number-float64-base-to-float32@umd/browser.js"></script>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/number-float32-base-to-binary-string@umd/browser.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/number-float32-base-from-binary-string@v0.2.2-umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/number-float32-base-from-binary-string@umd/browser.js"></script>
 <script type="text/javascript">
 (function () {
 
