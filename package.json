@@ -42,7 +42,7 @@
     "@stdlib/constants-float32-pinf": "^0.2.2",
     "@stdlib/math-base-special-pow": "^0.3.0",
     "@stdlib/number-float64-base-to-float32": "^0.2.2",
-    "@stdlib/string-format": "^0.2.2",
+    "@stdlib/error-tools-fmtprodmsg": "^0.2.2",
     "@stdlib/error-tools-fmtprodmsg": "^0.2.2"
   },
   "devDependencies": {
